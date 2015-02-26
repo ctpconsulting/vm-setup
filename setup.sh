@@ -29,10 +29,10 @@ fi
 echo -e "\e[32mGit Repository successfully cloned.\e[0m Starting the setup."
 
 cd vm_setup_scripts
-./install.sh
+./setup.sh
 
 if [ $? -eq 0 ]
 then
-    echo -e "\e[32mDEV VM successfully initialized! Start installing by running the .sh installers in the vm_setup_scripts directory.\e[0m"
+    echo -e "\e[32mDEV VM successfully initialized! Start installing by running install.sh with the software profile you need in the vm_setup_scripts directory.\e[0m"
 fi
 
