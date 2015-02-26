@@ -18,7 +18,7 @@ sudo apt-get -yq install git-core
 echo
 echo "Cloning the repository."
 echo -e "\e[31mNote that your username and password are the ones from GitLab!\e[0m"
-echo "Login to GitLab, check your profile and set a password if you have not already done so.\n"
+echo "Login to GitLab, check your profile and set a password if you have not already done so."
 git clone https://source.ctp-consulting.com/java/vm_setup_scripts.git
 if [ $? -ne 0 ]
 then
